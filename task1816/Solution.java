@@ -31,8 +31,6 @@ public class Solution {
                             countUpperCase++;
                         }
                     }
-
-
                 }
                System.out.print(countLowCase+countUpperCase);
 
