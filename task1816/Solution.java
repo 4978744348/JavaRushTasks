@@ -21,7 +21,7 @@ public class Solution {
                 int countUpperCase = 0;
                 int countLowCase = 0;
                 for(char element : line.toCharArray()){
-                  /*  for(char i = 'a';i<='z';i++) {
+                   for(char i = 'a';i<='z';i++) {
                        if(element == i){
                            countLowCase++;
                        }
@@ -30,15 +30,12 @@ public class Solution {
                         if(element == i){
                             countUpperCase++;
                         }
-                    }*/
-
-                    if(element == 'l'){
-                        countLowCase++;
                     }
 
+
                 }
-               // System.out.print(countLowCase+countUpperCase);
-                System.out.print(countLowCase);
+               System.out.print(countLowCase+countUpperCase);
+
             }
 
         }catch (IOException e){
